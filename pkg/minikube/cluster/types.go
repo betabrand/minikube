@@ -37,6 +37,8 @@ type MachineConfig struct {
 	DisableDriverMounts bool               // Only used by virtualbox and xhyve
 	XhyveNFSShares      []string
 	XhyveNFSSharesRoot  string
+	XhyveVirtio9p       []string
+	XhyveVirtio9pRoot   string
 }
 
 // KubernetesConfig contains the parameters used to configure the VM Kubernetes.
